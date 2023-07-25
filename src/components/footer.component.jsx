@@ -1,11 +1,25 @@
 import React from "react";
 
-const FooterComponent = () => {
+const Footer = () => {
   return (
-    <div>
-      <h1>this is the footer</h1>
+    <div className="footer-task">
+      <span>Drag and drop to reorder list</span>
+      <div className="attribution">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a
+          href="https://www.frontendmentor.io/profile/wadlyd"
+          target="_blank"
+        >
+          Wadly Dugue
+        </a>
+        .
+      </div>
     </div>
   );
 };
 
-export default FooterComponent;
+export default Footer;

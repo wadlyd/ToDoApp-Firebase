@@ -1,0 +1,35 @@
+@use "../util/colors" as color;
+
+.footer-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    span {
+        font-family: 'Josefin Sans', sans-serif;
+        color: color.$veryDarkGrayishBlue;
+    }
+    .attribution {
+        display: block;
+        color: rgb(216, 200, 200);
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 0.7rem;
+        margin-top: 1em;
+        a {
+            text-decoration: none;
+            color: color.$lightGrayishBlue;
+        }
+    }
+}
+
+.content.light {
+    .attribution {
+        color: rgb(61, 50, 50);
+        a {
+            color: color.$veryDarkBlue;
+        }
+    }
+}
