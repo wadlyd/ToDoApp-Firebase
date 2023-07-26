@@ -10,10 +10,7 @@ const Footer = () => {
           Frontend Mentor
         </a>
         . Coded by{" "}
-        <a
-          href="https://www.frontendmentor.io/profile/wadlyd"
-          target="_blank"
-        >
+        <a href="https://www.frontendmentor.io/profile/wadlyd" target="_blank">
           Wadly Dugue
         </a>
         .
